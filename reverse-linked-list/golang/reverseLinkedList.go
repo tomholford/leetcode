@@ -7,9 +7,6 @@ type ListNode struct {
 	Next *ListNode
 }
 
-/**
- * Definition for singly-linked list.
- */
 func reverseList(head *ListNode) *ListNode {
 	var stack []ListNode
 	nextNode := head
