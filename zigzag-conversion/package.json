@@ -1,0 +1,11 @@
+{
+  "name": "zigzag-conversion",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "bun test"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.4.2"
+  }
+}
