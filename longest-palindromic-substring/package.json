@@ -1,0 +1,12 @@
+{
+  "name": "longest-palindromic-substring",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "bun test",
+    "watch": "bun test --watch"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.4.2"
+  }
+}
