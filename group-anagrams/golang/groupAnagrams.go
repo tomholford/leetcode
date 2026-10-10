@@ -2,10 +2,6 @@
 
 package main
 
-import (
-	"strings"
-)
-
 const azOffset = 97
 
 func groupAnagrams(strs []string) [][]string {
@@ -13,9 +9,8 @@ func groupAnagrams(strs []string) [][]string {
 
 	for _, s := range strs {
 		var counts [26]byte
-		chars := strings.Split(s, "")
-		for _, c := range chars {
-			azIdx := c[0] - azOffset
+		for i, _ := range s {
+			azIdx := s[i] - azOffset
 			counts[azIdx] = counts[azIdx] + 1
 		}
 
