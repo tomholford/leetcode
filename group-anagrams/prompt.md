@@ -45,3 +45,9 @@ function groupAnagrams(strs: string[]): string[][]
 ```
 
 Implement it in `groupAnagrams.ts`. Check it with `bun test`.
+
+```go
+func groupAnagrams(strs []string) [][]string
+```
+
+The Go stub is in `golang/`. Check it with `./bin/test`, or `./bin/watch`.
